@@ -1,0 +1,162 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+header {
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: black;
+  color: #f2f2f2;
+}
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #cbcbcb;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+.signup {
+  text-align: center;
+  border-bottom: solid;
+}
+
+
+
+input,
+input[type="address"],
+input[type="city"],
+select {
+  font-size: 1em;
+  color: black;
+  font-weight: 300; 
+  border: none;
+  height: auto;
+  padding: 8px;
+  margin-bottom: 1.2em;
+  border-radius: .3em;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: .3em;
+  margin-bottom: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0px 4px 8px 0;
+}
+
+input:focus,
+textarea:focus{
+  background-color: #cce6ff;
+}
+
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  display: inline-block;
+}
+
+fieldset {
+  margin: 15px 0;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.copyright {
+  text-align: center;
+}
+
+
+.zip {
+  width: 50%;
+}
+
+legend {
+  border-top: solid ;
+  width: 100%;
+  font-weight: bold;
+  padding: 5px ;
+}
+
+.news_label {
+  padding: 5px 0;
+}
+
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 600px;
+  }
+  
+  .left {
+    float: left;
+    width: 130px;
+    margin-top: 8px;
+  }
+  
+  .inln{
+   width: 65%;
+  }
+  
+  .zip {
+    width: 30%;
+  }
+  
+  .comments {
+    margin-top: 1em;
+  }
+  
+  input,
+  select {
+  font-size: 1em;
+  color: black;
+  font-weight: 300; 
+  border: none;
+  height: auto;
+  padding: 8px;
+  margin-bottom: 1.2em;
+  border-radius: .3em;
+  }
+  
+}
